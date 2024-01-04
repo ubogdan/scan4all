@@ -1,0 +1,492 @@
+repo_name: ubogdan/scan4all
+report_id: 0472c9175b2b300141b7fd7080b8a6f7
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-04T15:15:06+00:00'
+requested_by: hktalent
+provider: github
+branch: main
+detected_tools_count: 39
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/ubogdan/scan4all
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/ubogdan/scan4all
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ubogdan/scan4all
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: hktalent
+  last_updated_on: 2022-09-18 13:54:50.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: hktalent
+  last_updated_on: 2022-09-18 13:54:50.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: 51pwn
+  last_updated_on: 2022-06-21 01:09:07.000000000 Z
+- name: ScratchDB
+  description: Open source Snowflake on ClickHouse
+  website_url: https://www.scratchdb.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Big Data Tools
+  image_url: https://img.stackshare.io/service/104997/default_64f16b2ca9869cd997fc48770dfb2fbf268a56d1.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/pelletier/go-toml/v2/Dockerfile
+  detection_source: vendor/github.com/pelletier/go-toml/v2/Dockerfile
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/bits-and-blooms/bitset/azure-pipelines.yml
+  detection_source: vendor/github.com/bits-and-blooms/bitset/azure-pipelines.yml
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/json-iterator/go/.codecov.yml
+  detection_source: vendor/github.com/json-iterator/go/.codecov.yml
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/gosnmp/gosnmp/Dockerfile
+  detection_source: vendor/github.com/gosnmp/gosnmp/Dockerfile
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-15 15:25:00.000000000 Z
+- name: Drone.io
+  description: Open source continuous integration platform built on Docker
+  website_url: https://drone.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/668/R_wMcCqN_400x400.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/goftp.io/server/v2/.drone.yml
+  detection_source: vendor/goftp.io/server/v2/.drone.yml
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ubogdan/scan4all
+  detection_source: Repo Metadata
+- name: GitHub
+  description: Powerful collaboration, review, and code management for open source
+    and private development projects
+  website_url: https://github.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Collaboration & Version Control
+  image_url: https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: 51pwn
+  last_updated_on: 2022-06-21 01:09:07.000000000 Z
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: hktalent
+  last_updated_on: 2022-08-31 01:01:50.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: hktalent
+  last_updated_on: 2022-09-18 13:54:50.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/AndreasBriese/bbloom/.travis.yml
+  detection_source: vendor/github.com/AndreasBriese/bbloom/.travis.yml
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: hub
+  description: Wraps Git with extra features that make working with GitHub easier
+    (by GitHub)
+  website_url: http://hub.github.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: wercker
+  description: Build, test, and deploy container-native applications
+  website_url: http://wercker.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/897/S67KcxKE.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/asaskevich/govalidator/wercker.yml
+  detection_source: vendor/github.com/asaskevich/govalidator/wercker.yml
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: Apex
+  description: Serverless Architecture with AWS Lambda
+  website_url: https://github.com/apex/apex
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/4301/10543471.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/config/elasticsearch.yml
+  detection_source: config/elasticsearch.yml
+  last_updated_by: 51pwn
+  last_updated_on: 2022-06-30 15:00:20.000000000 Z
+- name: RamNode-1
+  website_url: http://travelhitech.com/recommends/ramnode-kvm-vps
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/1736/no-img-open-source.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/lib/Smuggling/test/docker-compose.yml
+  detection_source: lib/Smuggling/test/docker-compose.yml
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-24 01:02:47.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ubogdan/scan4all
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/golang.org/x/net/http2/Dockerfile
+  detection_source: vendor/golang.org/x/net/http2/Dockerfile
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: bl
+  description: 'Buffer List: collect buffers and access with a standard readable Buffer
+    interface'
+  package_url: https://www.npmjs.com/bl
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17221/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: co
+  description: Generator async control flow goodness
+  package_url: https://www.npmjs.com/co
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16007/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: http
+  package_url: https://www.npmjs.com/http
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16874/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: https
+  description: Https mediation
+  package_url: https://www.npmjs.com/https
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17546/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: i
+  description: Custom inflections for nodejs
+  package_url: https://www.npmjs.com/i
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17326/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: is
+  description: The definitive JavaScript type testing library
+  package_url: https://www.npmjs.com/is
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17544/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: mv
+  description: Fs.rename but works across devices
+  package_url: https://www.npmjs.com/mv
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17889/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: publish
+  description: Npm auto publishing of your modules
+  package_url: https://www.npmjs.com/publish
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18190/default_b56a957d927d2e40d2c7cf9f3588b95c4df2c97c.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: url
+  description: The core `url` packaged standalone for use with Browserify
+  package_url: https://www.npmjs.com/url
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/vendor/github.com/blang/semver/package.json
+  detection_source: vendor/github.com/blang/semver/package.json
+  last_updated_by: 51pwn
+  last_updated_on: 2022-07-05 09:23:41.000000000 Z
+- name: go-sqlite3
+  description: Sqlite3 driver for go using database/sql
+  package_url: https://pkg.go.dev/github.com/mattn/go-sqlite3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/scan4all/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: hktalent
+  last_updated_on: 2022-09-18 13:54:50.000000000 Z
